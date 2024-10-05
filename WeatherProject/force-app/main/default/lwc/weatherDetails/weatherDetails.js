@@ -43,7 +43,7 @@ export default class WeatherDetails extends LightningElement {
             this.iconUrl = `https://openweathermap.org/img/wn/${this.weatherIcon}.png`;
             this.showWeatherDetails = true;
             this.hasErrors = false;
-        } else if (error) {
+        } else if (error || data == null) {
             this.showWeatherDetails = false;
             this.hasErrors = true;
         }

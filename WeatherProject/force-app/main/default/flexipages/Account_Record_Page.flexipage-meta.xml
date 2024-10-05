@@ -121,6 +121,12 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>weatherDetails</componentName>
+                <identifier>c_weatherDetails</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentInstanceProperties>
                     <name>tabs</name>
                     <value>maintabs</value>
@@ -197,12 +203,6 @@
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentName>weatherDetails</componentName>
-                <identifier>c_weatherDetails</identifier>
-            </componentInstance>
-        </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
