@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Get 5 days forecast</label>
+    <protected>false</protected>
+    <values>
+        <field>APIKey__c</field>
+        <value xsi:type="xsd:string">APIKEY</value>
+    </values>
+    <values>
+        <field>Method__c</field>
+        <value xsi:type="xsd:string">GET</value>
+    </values>
+    <values>
+        <field>RelativeURLTemplate__c</field>
+        <value xsi:type="xsd:string">/data/2.5/forecast?q={0}&amp;appid={1}&amp;units={2}</value>
+    </values>
+</CustomMetadata>
